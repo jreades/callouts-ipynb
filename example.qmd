@@ -44,3 +44,18 @@ No icon here.
 :::
 
 Text after.
+
+::: {.callout-tip}
+## Tip containing code
+
+Text before the code cell.
+
+```{python}
+print("hello")
+```
+
+Text after the code cell.
+:::
+
+::: {.callout-warning collapse="true" title="Title-only callout"}
+:::
