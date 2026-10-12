@@ -1,0 +1,46 @@
+---
+title: "Callout Test"
+filters:
+  - callouts-ipynb
+---
+
+Some text before the callouts.
+
+::: {.callout-note}
+A note with **bold**, `code`, and a list:
+
+- one
+- two
+:::
+
+::: {.callout-tip title="Custom Tip Title"}
+A tip with a custom title.
+:::
+
+::: {.callout-warning}
+## Warning With Heading Title
+Watch out.
+:::
+
+::: {.callout-caution}
+Caution body.
+:::
+
+::: {.callout-important}
+Important body.
+:::
+
+::: {.callout-tip collapse=true}
+## Collapsed Tip
+Hidden until expanded.
+:::
+
+::: {.callout-note collapse=false title="Open but collapsible"}
+Visible by default.
+:::
+
+::: {.callout-note icon=false}
+No icon here.
+:::
+
+Text after.
